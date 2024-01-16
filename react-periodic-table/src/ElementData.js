@@ -642,6 +642,46 @@ const allElements = [
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d10",
     },
+    {
+        name: "Thallium",
+        symbol: "Tl",
+        number: 81,
+        mass: 204.38,
+        family: "Post-transition Metals",
+        electron_configuration: "[Xe] 6s2 4f14 5d10 6p1",
+    },
+    {
+        name: "Lead",
+        symbol: "Pb",
+        number: 82,
+        mass: 207.2,
+        family: "Post-transition Metals",
+        electron_configuration: "[Xe] 6s2 4f14 5d10 6p2",
+    },
+    {
+        name: "Bismuth",
+        symbol: "Bi",
+        number: 83,
+        mass: 208.98,
+        family: "Post-transition Metals",
+        electron_configuration: "[Xe] 6s2 4f14 5d10 6p3",
+    },
+    {
+        name: "Polonium",
+        symbol: "Po",
+        number: 84,
+        mass: "(209)",
+        family: "Post-transition Metals",
+        electron_configuration: "[Xe] 6s2 4f14 5d10 6p3",
+    },
+    {
+        name: "Astatine",
+        symbol: "At",
+        number: 85,
+        mass: "(210)",
+        family: "Metalloids",
+        electron_configuration: "[Xe] 6s2 4f14 5d10 6p4",
+    },
 ];
 
 export default allElements;
