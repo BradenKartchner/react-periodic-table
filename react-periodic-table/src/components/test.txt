@@ -1,0 +1,10 @@
+<Rect fill="red" width={200} height={100} x={300} y={150} />
+                    {testArray.map((x) => (
+                        <Rect
+                            fill="blue"
+                            width={10}
+                            height={100}
+                            x={width / x - 100}
+                            y={400}
+                        />
+                    ))}

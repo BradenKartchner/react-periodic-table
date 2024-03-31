@@ -9,6 +9,8 @@ const allElements = [
         mass: 1.008,
         family: "Reactive Nonmetals",
         electron_configuration: "1s1",
+        row: 1,
+        col: 1,
     },
     {
         name: "Helium",
