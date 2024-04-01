@@ -19,6 +19,8 @@ const allElements = [
         mass: 4.0026,
         family: "Noble Gases",
         electron_configuration: "1s2",
+        row: 1,
+        col: 18,
     },
     {
         name: "Lithium",
@@ -27,6 +29,8 @@ const allElements = [
         mass: 6.94,
         family: "Alkali Metals",
         electron_configuration: "[He] 2s1",
+        row: 2,
+        col: 1,
     },
     {
         name: "Beryllium",
@@ -35,6 +39,8 @@ const allElements = [
         mass: 9.0122,
         family: "Alkaline Earth Metals",
         electron_configuration: "[He] 2s2",
+        row: 2,
+        col: 2,
     },
     {
         name: "Boron",
@@ -43,6 +49,8 @@ const allElements = [
         mass: 10.81,
         family: "Metalloids",
         electron_configuration: "[He] 2s2 2p1",
+        row: 2,
+        col: 13,
     },
     {
         name: "Carbon",
@@ -51,6 +59,8 @@ const allElements = [
         mass: 12.011,
         family: "Reactive Nonmetals",
         electron_configuration: "[He] 2s2 2p2",
+        row: 2,
+        col: 14,
     },
     {
         name: "Nitrogen",
@@ -59,6 +69,8 @@ const allElements = [
         mass: 14.007,
         family: "Reactive Nonmetals",
         electron_configuration: "[He] 2s2 2p3",
+        row: 2,
+        col: 15,
     },
     {
         name: "Oxygen",
@@ -67,6 +79,8 @@ const allElements = [
         mass: 15.999,
         family: "Reactive Nonmetals",
         electron_configuration: "[He] 2s2 2p4",
+        row: 2,
+        col: 16,
     },
     {
         name: "Fluorine",
