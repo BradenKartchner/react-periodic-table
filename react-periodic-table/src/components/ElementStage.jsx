@@ -1,5 +1,5 @@
 import { Stage, Layer, Group, Text, Rect } from "react-konva";
-import React from "react";
+import { React, useRef } from "react";
 import allElements from "../ElementData";
 
 function ElementStage() {
@@ -13,12 +13,24 @@ function ElementStage() {
     let xTextMargin = 3;
     let startTextMargin = 3;
     let myFontSize = yMultiplier / 5;
-    console.log("box width: " + xMultiplier);
-    console.log("box height: " + yMultiplier);
+    // console.log("box width: " + xMultiplier);
+    // console.log("box height: " + yMultiplier);
+
+    // React vars
+    const stage = useRef(null);
+    const currentGroup = useRef(null);
+
+    function handleMouseOver() {
+        console.log("Mouse over event");
+    }
 
     return (
         <>
-            <Stage width={window.innerWidth} height={window.innerHeight}>
+            <Stage
+                width={window.innerWidth}
+                height={window.innerHeight}
+                ref={stage}
+            >
                 <Layer>
                     {allElements.map((ele) => (
                         <Group
@@ -35,6 +47,7 @@ function ElementStage() {
                                 (ele.row - 1) * yMultiplier +
                                 (ele.row - 1) * 3
                             }
+                            onMouseOver={handleMouseOver}
                         >
                             <Rect
                                 fill="lightblue"
