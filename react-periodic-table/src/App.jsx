@@ -11,8 +11,6 @@ function App() {
     return (
         <>
             <ElementStage />
-            <Header />
-            <KonvaDemo />
         </>
     );
 }

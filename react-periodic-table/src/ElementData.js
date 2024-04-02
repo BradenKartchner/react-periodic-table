@@ -89,6 +89,8 @@ const allElements = [
         mass: 18.998,
         family: "Halogens",
         electron_configuration: "[He] 2s2 2p5",
+        row: 2,
+        col: 17,
     },
     {
         name: "Neon",
@@ -97,6 +99,8 @@ const allElements = [
         mass: 20.18,
         family: "Noble Gases",
         electron_configuration: "[He] 2s2 2p6",
+        row: 2,
+        col: 18,
     },
     {
         name: "Sodium",
@@ -105,6 +109,8 @@ const allElements = [
         mass: 22.99,
         family: "Alkali Metals",
         electron_configuration: "[Ne] 3s1",
+        row: 3,
+        col: 1,
     },
     {
         name: "Magnesium",
@@ -113,6 +119,8 @@ const allElements = [
         mass: 24.305,
         family: "Alkaline Earth Metals",
         electron_configuration: "[Ne] 3s2",
+        row: 3,
+        col: 2,
     },
     {
         name: "Aluminum",
@@ -121,6 +129,8 @@ const allElements = [
         mass: 26.982,
         family: "Post-transition Metals",
         electron_configuration: "[Ne] 3s2 3p1",
+        row: 3,
+        col: 13,
     },
     {
         name: "Silicon",
@@ -129,6 +139,8 @@ const allElements = [
         mass: 28.085,
         family: "Metalloids",
         electron_configuration: "[Ne] 3s2 3p2",
+        row: 3,
+        col: 14,
     },
     {
         name: "Phosphorus",
@@ -137,6 +149,8 @@ const allElements = [
         mass: 30.974,
         family: "Reactive Nonmetals",
         electron_configuration: "[Ne] 3s2 3p3",
+        row: 3,
+        col: 15,
     },
     {
         name: "Sulfur",
@@ -145,6 +159,8 @@ const allElements = [
         mass: 32.06,
         family: "Reactive Nonmetals",
         electron_configuration: "[Ne] 3s2 3p4",
+        row: 3,
+        col: 16,
     },
     {
         name: "Chlorine",
@@ -153,6 +169,8 @@ const allElements = [
         mass: 35.45,
         family: "Halogens",
         electron_configuration: "[Ne] 3s2 3p5",
+        row: 3,
+        col: 17,
     },
     {
         name: "Argon",
@@ -161,6 +179,8 @@ const allElements = [
         mass: 39.948,
         family: "Noble Gases",
         electron_configuration: "[Ne] 3s2 3p6",
+        row: 3,
+        col: 18,
     },
     {
         name: "Potassium",
@@ -169,6 +189,8 @@ const allElements = [
         mass: 39.098,
         family: "Alkali Metals",
         electron_configuration: "[Ar] 4s1",
+        row: 4,
+        col: 1,
     },
     {
         name: "Calcium",
@@ -177,6 +199,8 @@ const allElements = [
         mass: 40.078,
         family: "Alkaline Earth Metals",
         electron_configuration: "[Ar] 4s2",
+        row: 4,
+        col: 2,
     },
     {
         name: "Scandium",
@@ -185,6 +209,8 @@ const allElements = [
         mass: 44.956,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d1",
+        row: 4,
+        col: 3,
     },
     {
         name: "Titanium",
@@ -193,6 +219,8 @@ const allElements = [
         mass: 47.876,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d2",
+        row: 4,
+        col: 4,
     },
     {
         name: "Vanadium",
@@ -201,6 +229,8 @@ const allElements = [
         mass: 50.942,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d3",
+        row: 4,
+        col: 5,
     },
     {
         name: "Chromium",
@@ -209,6 +239,8 @@ const allElements = [
         mass: 51.996,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d4",
+        row: 4,
+        col: 6,
     },
     {
         name: "Manganese",
@@ -217,6 +249,8 @@ const allElements = [
         mass: 54.938,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d5",
+        row: 4,
+        col: 7,
     },
     {
         name: "Iron",
@@ -225,6 +259,8 @@ const allElements = [
         mass: 55.845,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d6",
+        row: 4,
+        col: 8,
     },
     {
         name: "Cobalt",
@@ -233,6 +269,8 @@ const allElements = [
         mass: 58.933,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d7",
+        row: 4,
+        col: 9,
     },
     {
         name: "Nickel",
@@ -241,6 +279,8 @@ const allElements = [
         mass: 58.693,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d8",
+        row: 4,
+        col: 10,
     },
     {
         name: "Copper",
@@ -249,6 +289,8 @@ const allElements = [
         mass: 63.546,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d9",
+        row: 4,
+        col: 11,
     },
     {
         name: "Zinc",
@@ -257,6 +299,8 @@ const allElements = [
         mass: 65.38,
         family: "Transition Metals",
         electron_configuration: "[Ar] 4s2 3d10",
+        row: 4,
+        col: 12,
     },
     {
         name: "Gallium",
@@ -265,6 +309,8 @@ const allElements = [
         mass: 69.723,
         family: "Post-transition Metals",
         electron_configuration: "[Ar] 4s2 3d10 4p1",
+        row: 4,
+        col: 13,
     },
     {
         name: "Germanium",
@@ -273,6 +319,8 @@ const allElements = [
         mass: 72.63,
         family: "Metalloids",
         electron_configuration: "[Ar] 4s2 3d10 4p2",
+        row: 4,
+        col: 14,
     },
     {
         name: "Arsenic",
@@ -281,6 +329,8 @@ const allElements = [
         mass: 74.922,
         family: "Metalloids",
         electron_configuration: "[Ar] 4s2 3d10 4p3",
+        row: 4,
+        col: 15,
     },
     {
         name: "Selenium",
@@ -289,6 +339,8 @@ const allElements = [
         mass: 78.971,
         family: "Reactive Nonmetals",
         electron_configuration: "[Ar] 4s2 3d10 4p4",
+        row: 4,
+        col: 16,
     },
     {
         name: "Bromine",
@@ -297,6 +349,8 @@ const allElements = [
         mass: 79.904,
         family: "Halogens",
         electron_configuration: "[Ar] 4s2 3d10 4p5",
+        row: 4,
+        col: 17,
     },
     {
         name: "Krypton",
@@ -305,6 +359,8 @@ const allElements = [
         mass: 83.798,
         family: "Noble Gases",
         electron_configuration: "[Ar] 4s2 3d10 4p6",
+        row: 4,
+        col: 18,
     },
     {
         name: "Rubidium",
@@ -313,6 +369,8 @@ const allElements = [
         mass: 85.468,
         family: "Alkali Metals",
         electron_configuration: "[Kr] 5s1",
+        row: 5,
+        col: 1,
     },
     {
         name: "Strontium",
@@ -321,6 +379,8 @@ const allElements = [
         mass: 87.62,
         family: "Alkaline Earth Metals",
         electron_configuration: "[Kr] 5s2",
+        row: 5,
+        col: 2,
     },
     {
         name: "Yttrium",
@@ -329,6 +389,8 @@ const allElements = [
         mass: 88.906,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d1",
+        row: 5,
+        col: 3,
     },
     {
         name: "Zirconium",
@@ -337,6 +399,8 @@ const allElements = [
         mass: 91.224,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d2",
+        row: 5,
+        col: 4,
     },
     {
         name: "Niobium",
@@ -345,6 +409,8 @@ const allElements = [
         mass: 92.906,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d3",
+        row: 5,
+        col: 5,
     },
     {
         name: "Molybdenum",
@@ -353,6 +419,8 @@ const allElements = [
         mass: 95.95,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d4",
+        row: 5,
+        col: 6,
     },
     {
         name: "Technetium",
@@ -361,6 +429,8 @@ const allElements = [
         mass: "(98)",
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d5",
+        row: 5,
+        col: 7,
     },
     {
         name: "Ruthenium",
@@ -369,6 +439,8 @@ const allElements = [
         mass: 101.07,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d6",
+        row: 5,
+        col: 8,
     },
     {
         name: "Rhodium",
@@ -377,6 +449,8 @@ const allElements = [
         mass: 102.91,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d7",
+        row: 5,
+        col: 9,
     },
     {
         name: "Palladium",
@@ -385,6 +459,8 @@ const allElements = [
         mass: 106.42,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d8",
+        row: 5,
+        col: 10,
     },
     {
         name: "Silver",
@@ -393,6 +469,8 @@ const allElements = [
         mass: 107.87,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d9",
+        row: 5,
+        col: 11,
     },
     {
         name: "Cadmium",
@@ -401,6 +479,8 @@ const allElements = [
         mass: 112.41,
         family: "Transition Metals",
         electron_configuration: "[Kr] 5s2 4d10",
+        row: 5,
+        col: 12,
     },
     {
         name: "Indium",
@@ -409,6 +489,8 @@ const allElements = [
         mass: 114.82,
         family: "Post-transition Metals",
         electron_configuration: "[Kr] 5s2 4d10 5p1",
+        row: 5,
+        col: 13,
     },
     {
         name: "Tin",
@@ -417,6 +499,8 @@ const allElements = [
         mass: 118.71,
         family: "Post-transition Metals",
         electron_configuration: "[Kr] 5s2 4d10 5p2",
+        row: 5,
+        col: 14,
     },
     {
         name: "Antimony",
@@ -425,6 +509,8 @@ const allElements = [
         mass: 121.76,
         family: "Metalloids",
         electron_configuration: "[Kr] 5s2 4d10 5p3",
+        row: 5,
+        col: 15,
     },
     {
         name: "Tellurium",
@@ -433,6 +519,8 @@ const allElements = [
         mass: 127.6,
         family: "Metalloids",
         electron_configuration: "[Kr] 5s2 4d10 5p4",
+        row: 5,
+        col: 16,
     },
     {
         name: "Iodine",
@@ -441,6 +529,8 @@ const allElements = [
         mass: 126.9,
         family: "Halogens",
         electron_configuration: "[Kr] 5s2 4d10 5p5",
+        row: 5,
+        col: 17,
     },
     {
         name: "Xenon",
@@ -449,6 +539,8 @@ const allElements = [
         mass: 131.29,
         family: "Halogens",
         electron_configuration: "[Kr] 5s2 4d10 5p6",
+        row: 5,
+        col: 18,
     },
     {
         name: "Caesium",
@@ -457,6 +549,8 @@ const allElements = [
         mass: 132.91,
         family: "Alkali Metals",
         electron_configuration: "[Xe] 6s1",
+        row: 6,
+        col: 1,
     },
     {
         name: "Barium",
@@ -465,6 +559,8 @@ const allElements = [
         mass: 137.33,
         family: "Alkaline Earth Metals",
         electron_configuration: "[Xe] 6s2",
+        row: 6,
+        col: 2,
     },
     {
         name: "Lanthanum",
@@ -473,6 +569,8 @@ const allElements = [
         mass: 138.91,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f1",
+        row: 8.5,
+        col: 4,
     },
     {
         name: "Cerium",
@@ -481,6 +579,8 @@ const allElements = [
         mass: 140.12,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f2",
+        row: 8.5,
+        col: 5,
     },
     {
         name: "Praseodymium",
@@ -489,6 +589,8 @@ const allElements = [
         mass: 140.91,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f3",
+        row: 8.5,
+        col: 6,
     },
     {
         name: "Neodymium",
@@ -497,6 +599,8 @@ const allElements = [
         mass: 144.24,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f4",
+        row: 8.5,
+        col: 7,
     },
     {
         name: "Promethium",
@@ -505,6 +609,8 @@ const allElements = [
         mass: "(145)",
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f5",
+        row: 8.5,
+        col: 8,
     },
     {
         name: "Samarium",
@@ -513,6 +619,8 @@ const allElements = [
         mass: 150.36,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f6",
+        row: 8.5,
+        col: 9,
     },
     {
         name: "Europium",
@@ -521,6 +629,8 @@ const allElements = [
         mass: 151.96,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f7",
+        row: 8.5,
+        col: 10,
     },
     {
         name: "Gadolinium",
@@ -529,6 +639,8 @@ const allElements = [
         mass: 157.25,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f8",
+        row: 8.5,
+        col: 11,
     },
     {
         name: "Terbium",
@@ -537,6 +649,8 @@ const allElements = [
         mass: 158.93,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f9",
+        row: 8.5,
+        col: 12,
     },
     {
         name: "Dysprosium",
@@ -545,6 +659,8 @@ const allElements = [
         mass: 162.5,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f10",
+        row: 8.5,
+        col: 13,
     },
     {
         name: "Holmium",
@@ -553,6 +669,8 @@ const allElements = [
         mass: 164.93,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f11",
+        row: 8.5,
+        col: 14,
     },
     {
         name: "Erbium",
@@ -561,6 +679,8 @@ const allElements = [
         mass: 167.26,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f12",
+        row: 8.5,
+        col: 15,
     },
     {
         name: "Thulium",
@@ -569,6 +689,8 @@ const allElements = [
         mass: 168.93,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f13",
+        row: 8.5,
+        col: 16,
     },
     {
         name: "Ytterbium",
@@ -577,6 +699,8 @@ const allElements = [
         mass: 173.05,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f14",
+        row: 8.5,
+        col: 17,
     },
     {
         name: "Lutetium",
@@ -585,6 +709,8 @@ const allElements = [
         mass: 174.97,
         family: "Lanthanides",
         electron_configuration: "[Xe] 6s2 4f14 5d1",
+        row: 8.5,
+        col: 18,
     },
     {
         name: "Hafnium",
@@ -593,6 +719,8 @@ const allElements = [
         mass: 178.49,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d2",
+        row: 6,
+        col: 4,
     },
     {
         name: "Tantalum",
@@ -601,6 +729,8 @@ const allElements = [
         mass: 180.95,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d3",
+        row: 6,
+        col: 5,
     },
     {
         name: "Tungsten",
@@ -609,6 +739,8 @@ const allElements = [
         mass: 183.84,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d4",
+        row: 6,
+        col: 6,
     },
     {
         name: "Rhenium",
@@ -617,6 +749,8 @@ const allElements = [
         mass: 186.21,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d5",
+        row: 6,
+        col: 7,
     },
     {
         name: "Osmium",
@@ -625,6 +759,8 @@ const allElements = [
         mass: 190.23,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d6",
+        row: 6,
+        col: 8,
     },
     {
         name: "Iridium",
@@ -633,6 +769,8 @@ const allElements = [
         mass: 192.22,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d7",
+        row: 6,
+        col: 9,
     },
     {
         name: "Platinum",
@@ -641,6 +779,8 @@ const allElements = [
         mass: 195.08,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d8",
+        row: 6,
+        col: 10,
     },
     {
         name: "Gold",
@@ -649,6 +789,8 @@ const allElements = [
         mass: 196.97,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d9",
+        row: 6,
+        col: 11,
     },
     {
         name: "Mercury",
@@ -657,6 +799,8 @@ const allElements = [
         mass: 200.59,
         family: "Transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d10",
+        row: 6,
+        col: 12,
     },
     {
         name: "Thallium",
@@ -665,6 +809,8 @@ const allElements = [
         mass: 204.38,
         family: "Post-transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d10 6p1",
+        row: 6,
+        col: 13,
     },
     {
         name: "Lead",
@@ -673,6 +819,8 @@ const allElements = [
         mass: 207.2,
         family: "Post-transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d10 6p2",
+        row: 6,
+        col: 14,
     },
     {
         name: "Bismuth",
@@ -681,6 +829,8 @@ const allElements = [
         mass: 208.98,
         family: "Post-transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d10 6p3",
+        row: 6,
+        col: 15,
     },
     {
         name: "Polonium",
@@ -689,6 +839,8 @@ const allElements = [
         mass: "(209)",
         family: "Post-transition Metals",
         electron_configuration: "[Xe] 6s2 4f14 5d10 6p4",
+        row: 6,
+        col: 16,
     },
     {
         name: "Astatine",
@@ -697,6 +849,8 @@ const allElements = [
         mass: "(210)",
         family: "Metalloids",
         electron_configuration: "[Xe] 6s2 4f14 5d10 6p5",
+        row: 6,
+        col: 17,
     },
     {
         name: "Radon",
@@ -705,6 +859,8 @@ const allElements = [
         mass: "(222)",
         family: "Noble Gases",
         electron_configuration: "[Xe] 6s2 4f14 5d10 6p6",
+        row: 6,
+        col: 18,
     },
     {
         name: "Francium",
@@ -713,6 +869,8 @@ const allElements = [
         mass: "(223)",
         family: "Alkali Metals",
         electron_configuration: "[Rn] 7s1",
+        row: 7,
+        col: 1,
     },
     {
         name: "Radium",
@@ -721,6 +879,8 @@ const allElements = [
         mass: "(226)",
         family: "Alkaline Earth Metals",
         electron_configuration: "[Rn] 7s2",
+        row: 7,
+        col: 2,
     },
     {
         name: "Actinium",
@@ -729,6 +889,8 @@ const allElements = [
         mass: "(227)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f1",
+        row: 9.5,
+        col: 4,
     },
     {
         name: "Thorium",
@@ -737,6 +899,8 @@ const allElements = [
         mass: 232.04,
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f2",
+        row: 9.5,
+        col: 5,
     },
     {
         name: "Protactinium",
@@ -745,6 +909,8 @@ const allElements = [
         mass: 231.04,
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f3",
+        row: 9.5,
+        col: 6,
     },
     {
         name: "Uranium",
@@ -753,6 +919,8 @@ const allElements = [
         mass: 238.08,
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f4",
+        row: 9.5,
+        col: 7,
     },
     {
         name: "Neptunium",
@@ -761,6 +929,8 @@ const allElements = [
         mass: "(237)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f5",
+        row: 9.5,
+        col: 8,
     },
     {
         name: "Plutonium",
@@ -769,6 +939,8 @@ const allElements = [
         mass: "(244)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f6",
+        row: 9.5,
+        col: 9,
     },
     {
         name: "Americium",
@@ -777,6 +949,8 @@ const allElements = [
         mass: "(243)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f7",
+        row: 9.5,
+        col: 10,
     },
     {
         name: "Curium",
@@ -785,6 +959,8 @@ const allElements = [
         mass: "(247)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f8",
+        row: 9.5,
+        col: 11,
     },
     {
         name: "Berkelium",
@@ -793,6 +969,8 @@ const allElements = [
         mass: "(247)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f9",
+        row: 9.5,
+        col: 12,
     },
     {
         name: "Californium",
@@ -801,6 +979,8 @@ const allElements = [
         mass: "(251)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f10",
+        row: 9.5,
+        col: 13,
     },
     {
         name: "Einsteinium",
@@ -809,6 +989,8 @@ const allElements = [
         mass: "(252)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f11",
+        row: 9.5,
+        col: 14,
     },
     {
         name: "Fermium",
@@ -817,6 +999,8 @@ const allElements = [
         mass: "(257)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f12",
+        row: 9.5,
+        col: 15,
     },
     {
         name: "Mendelevium",
@@ -825,6 +1009,8 @@ const allElements = [
         mass: "(258)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f13",
+        row: 9.5,
+        col: 16,
     },
     {
         name: "Nobelium",
@@ -833,6 +1019,8 @@ const allElements = [
         mass: "(259)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f14",
+        row: 9.5,
+        col: 17,
     },
     {
         name: "Lawrencium",
@@ -841,6 +1029,8 @@ const allElements = [
         mass: "(266)",
         family: "Actinides",
         electron_configuration: "[Rn] 7s2 5f14 6d1",
+        row: 9.5,
+        col: 18,
     },
     {
         name: "Rutherfordium",
@@ -849,6 +1039,8 @@ const allElements = [
         mass: "(267)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d2",
+        row: 7,
+        col: 4,
     },
     {
         name: "Dubnium",
@@ -857,6 +1049,8 @@ const allElements = [
         mass: "(268)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d3",
+        row: 7,
+        col: 5,
     },
     {
         name: "Seaborgium",
@@ -865,6 +1059,8 @@ const allElements = [
         mass: "(269)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d4",
+        row: 7,
+        col: 6,
     },
     {
         name: "Bohrium",
@@ -873,6 +1069,8 @@ const allElements = [
         mass: "(270)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d5",
+        row: 7,
+        col: 7,
     },
     {
         name: "Hassium",
@@ -881,6 +1079,8 @@ const allElements = [
         mass: "(277)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d6",
+        row: 7,
+        col: 8,
     },
     {
         name: "Meitnerium",
@@ -889,6 +1089,8 @@ const allElements = [
         mass: "(278)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d7",
+        row: 7,
+        col: 9,
     },
     {
         name: "Damstatium",
@@ -897,6 +1099,8 @@ const allElements = [
         mass: "(281)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d8",
+        row: 7,
+        col: 10,
     },
     {
         name: "Roentgenium",
@@ -905,6 +1109,8 @@ const allElements = [
         mass: "(282)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d9",
+        row: 7,
+        col: 11,
     },
     {
         name: "Copernicium",
@@ -913,6 +1119,8 @@ const allElements = [
         mass: "(285)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d10",
+        row: 7,
+        col: 12,
     },
     {
         name: "Nihonium",
@@ -921,6 +1129,8 @@ const allElements = [
         mass: "(286)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d10 7p1",
+        row: 7,
+        col: 13,
     },
     {
         name: "Flerovium",
@@ -929,6 +1139,8 @@ const allElements = [
         mass: "(289)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d10 7p2",
+        row: 7,
+        col: 14,
     },
     {
         name: "Moscovium",
@@ -937,6 +1149,8 @@ const allElements = [
         mass: "(290)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d10 7p3",
+        row: 7,
+        col: 15,
     },
     {
         name: "Livermorium",
@@ -945,6 +1159,8 @@ const allElements = [
         mass: "(293)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d10 7p4",
+        row: 7,
+        col: 16,
     },
     {
         name: "Tennessine",
@@ -953,6 +1169,8 @@ const allElements = [
         mass: "(294)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d10 7p5",
+        row: 7,
+        col: 17,
     },
     {
         name: "Oganesson",
@@ -961,6 +1179,8 @@ const allElements = [
         mass: "(294)",
         family: "Transactinides",
         electron_configuration: "[Rn] 7s2 5f14 6d10 7p6",
+        row: 7,
+        col: 18,
     },
 ];
 
