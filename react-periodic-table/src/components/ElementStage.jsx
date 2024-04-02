@@ -1,5 +1,5 @@
 import { Stage, Layer, Group, Text, Rect } from "react-konva";
-import { React, useRef } from "react";
+import { React, useRef, useState } from "react";
 import allElements from "../ElementData";
 
 function ElementStage() {
@@ -20,9 +20,17 @@ function ElementStage() {
     const stage = useRef(null);
     const currentGroup = useRef(null);
 
-    function handleMouseOver() {
-        console.log("Mouse over event");
-    }
+    const [fillColor, setFillColor] = useState("lightblue");
+
+    const handleMouseOver = (e) => {
+        console.log(e.target);
+        const myRect = e.target;
+        setFillColor("white");
+        // USE STATE VARS IN REACT YOU DUMMY
+        // myRect.fill = "white";
+        // myRect.strokeWidth = 4;
+        // myRect.stroke = "white";
+    };
 
     return (
         <>
@@ -47,12 +55,12 @@ function ElementStage() {
                                 (ele.row - 1) * yMultiplier +
                                 (ele.row - 1) * 3
                             }
-                            onMouseOver={handleMouseOver}
                         >
                             <Rect
-                                fill="lightblue"
+                                fill={fillColor}
                                 width={xMultiplier}
                                 height={yMultiplier}
+                                onMouseOver={handleMouseOver}
                             />
                             <Text
                                 text={ele.number}
