@@ -8,3 +8,11 @@
                             y={400}
                         />
                     ))}
+
+<Rect
+                    x={0}
+                    y={0}
+                    width={xMultiplier}
+                    height={yMultiplier}
+                    fill="lightblue"
+                />

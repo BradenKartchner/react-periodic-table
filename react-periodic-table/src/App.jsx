@@ -4,13 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header.jsx";
 import React from "react";
-import KonvaDemo from "./components/KonvaDemo.jsx";
-import ElementStage from "./components/ElementStage.jsx";
+import ElementLayer from "./components/ElementLayer.jsx";
+import AppStage from "./components/AppStage.jsx";
 
 function App() {
     return (
         <>
-            <ElementStage />
+            <AppStage />
         </>
     );
 }
