@@ -44,8 +44,8 @@ function LabelsLayer() {
                 ))}
                 {periodLabels.map((per) => (
                     <Group
-                        width={xMultiplier}
-                        height={yMultiplier / 2}
+                        width={xMultiplier / 2}
+                        height={yMultiplier}
                         x={0}
                         y={startY + (per - 1) * yMultiplier + (per - 1) * 3}
                         key={per}
@@ -62,13 +62,57 @@ function LabelsLayer() {
                         />
                     </Group>
                 ))}
-                <Group>
+                <Group
+                    x={startX + 2 * xMultiplier + 6}
+                    y={startY + 5 * yMultiplier + 15}
+                >
                     <Rect
                         width={xMultiplier}
                         height={yMultiplier * 4.5 + 10.5}
-                        x={startX + 2 * xMultiplier + 6}
-                        y={startY + 5 * yMultiplier + 15}
+                        fill="darkslateblue"
+                    />
+                    <Text
+                        text="57-71"
                         fill="white"
+                        width={xMultiplier}
+                        align="center"
+                        fontSize={14}
+                        height={yMultiplier}
+                        verticalAlign="middle"
+                    />
+                    <Text
+                        text="89-103"
+                        fill="white"
+                        y={yMultiplier + 3}
+                        width={xMultiplier}
+                        height={yMultiplier}
+                        align="center"
+                        verticalAlign="middle"
+                        fontSize={14}
+                    />
+                    <Text
+                        text="6"
+                        fill="white"
+                        fontStyle="bold"
+                        fontSize={16}
+                        width={xMultiplier / 2}
+                        height={yMultiplier}
+                        y={yMultiplier * 2.5 + 7.5}
+                        x={xMultiplier / 2}
+                        align="center"
+                        verticalAlign="middle"
+                    />
+                    <Text
+                        text="7"
+                        fill="white"
+                        fontStyle="bold"
+                        fontSize={16}
+                        width={xMultiplier / 2}
+                        height={yMultiplier}
+                        y={yMultiplier * 3.5 + 10.5}
+                        x={xMultiplier / 2}
+                        align="center"
+                        verticalAlign="middle"
                     />
                 </Group>
             </Layer>
