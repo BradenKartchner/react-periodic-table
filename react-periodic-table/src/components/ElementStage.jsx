@@ -7,10 +7,14 @@ function ElementStage() {
     let width = window.innerWidth;
     let height = window.innerHeight;
 
+    // TODO: make boxes vary in size based on screen resolution, but not resize to be smaller
+    // than a certain amount
     let xMultiplier = width / 25;
     let yMultiplier = height / 12;
-    let startX = xMultiplier;
-    let startY = yMultiplier;
+    let startX = 0;
+    let startY = 0;
+    //let startX = xMultiplier;
+    //let startY = yMultiplier;
     let xTextMargin = 3;
     let startTextMargin = 3;
     let myFontSize = yMultiplier / 5;
