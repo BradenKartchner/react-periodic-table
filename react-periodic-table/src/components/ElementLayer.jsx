@@ -11,9 +11,9 @@ function ElementLayer() {
     // than a certain amount
     let xMultiplier = width / 25;
     let yMultiplier = height / 12;
-    let startX = 0;
+    let startX = xMultiplier * 0.5;
     //let startX = xMultiplier;
-    let startY = yMultiplier * 0.5;
+    let startY = yMultiplier * 0.75;
     let xTextMargin = 3;
     let startTextMargin = 3;
     let myFontSize = yMultiplier / 5;

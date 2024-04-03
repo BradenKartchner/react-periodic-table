@@ -6,8 +6,8 @@ function AppStage() {
     return (
         <>
             <Stage width={window.innerWidth} height={window.innerHeight}>
-                <ElementLayer />
                 <LabelsLayer />
+                <ElementLayer />
             </Stage>
         </>
     );
