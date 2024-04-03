@@ -16,3 +16,6 @@
                     height={yMultiplier}
                     fill="lightblue"
                 />
+
+From "app.css", #root:
+max-width: 1280px; // was messing with the max width of the periodic table
