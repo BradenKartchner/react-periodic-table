@@ -1,6 +1,7 @@
 import { Stage, Layer, Group, Text, Rect } from "react-konva";
 import { React, useRef, useState } from "react";
 import allElements from "../ElementData";
+import colorScheme from "../EleColorScheme";
 
 function ElementStage() {
     let width = window.innerWidth;
@@ -8,7 +9,7 @@ function ElementStage() {
 
     let xMultiplier = width / 25;
     let yMultiplier = height / 12;
-    let startX = xMultiplier * 3.5;
+    let startX = xMultiplier;
     let startY = yMultiplier;
     let xTextMargin = 3;
     let startTextMargin = 3;
@@ -57,7 +58,7 @@ function ElementStage() {
                             }
                         >
                             <Rect
-                                fill={fillColor}
+                                fill={colorScheme[ele.family]}
                                 width={xMultiplier}
                                 height={yMultiplier}
                                 onMouseOver={handleMouseOver}

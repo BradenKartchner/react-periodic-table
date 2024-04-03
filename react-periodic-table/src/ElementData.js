@@ -537,7 +537,7 @@ const allElements = [
         symbol: "Xe",
         number: 54,
         mass: 131.29,
-        family: "Halogens",
+        family: "Noble Gases",
         electron_configuration: "[Kr] 5s2 4d10 5p6",
         row: 5,
         col: 18,
