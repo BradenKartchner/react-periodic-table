@@ -22,15 +22,24 @@ function ElementLayer() {
 
     // React vars
     const stage = useRef(null);
-    const currentGroup = useRef(null);
+    // const hydrogenRef = useRef(null);
 
     // Idea: use CSS for mouse hover effects??
     const [fillColor, setFillColor] = useState("lightblue");
+    const [hydroColor, setHydroFillColor] = useState("orange");
+
+    const [hStrokes, setHStrokes] = useState({
+        stroke: null,
+        strokeWidth: null,
+    });
 
     const handleMouseOver = (e) => {
         console.log(e.target);
         const myRect = e.target;
-        setFillColor("white");
+        if (e.target.attrs.id == "Hydrogen") {
+            setHStrokes({ stroke: "magenta", strokeWidth: 3 });
+        }
+        // setHydroFillColor("brown");
         // USE STATE VARS IN REACT YOU DUMMY
         // myRect.fill = "white";
         // myRect.strokeWidth = 4;
@@ -61,6 +70,15 @@ function ElementLayer() {
                             width={xMultiplier}
                             height={yMultiplier}
                             onMouseOver={handleMouseOver}
+                            id={ele.name}
+                            stroke={
+                                ele.name == "Hydrogen" ? hStrokes.stroke : null
+                            }
+                            strokeWidth={
+                                ele.name == "Hydrogen"
+                                    ? hStrokes.strokeWidth
+                                    : null
+                            }
                         />
                         <Text
                             text={ele.number}
