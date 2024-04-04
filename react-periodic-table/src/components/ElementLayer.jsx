@@ -3,7 +3,7 @@ import { React, useRef, useState } from "react";
 import allElements from "../ElementData";
 import colorScheme from "../EleColorScheme";
 
-function ElementLayer() {
+function ElementLayer(props) {
     let width = window.innerWidth;
     let height = window.innerHeight;
 
@@ -32,11 +32,13 @@ function ElementLayer() {
             setHighlightY(e.target.parent.attrs.y);
             setHighlightStroke("magenta");
             setHighlightStrokeWidth(3);
+            //console.log(e.target.attrs.id);
+            props.setActiveElement(e.target.attrs.id);
         }
     };
 
     const handleClick = (e) => {
-        //console.log(e.target);
+        console.log(e.target);
         if (!hasClicked) {
             setHasClicked(true);
         }
@@ -44,6 +46,11 @@ function ElementLayer() {
         setHighlightY(e.target.parent.attrs.y);
         setHighlightStroke("magenta");
         setHighlightStrokeWidth(3);
+        if (e.target.index != 0) {
+            props.setActiveElement(e.target.parent.children[0].attrs.id);
+        } else {
+            props.setActiveElement(e.target.attrs.id);
+        }
     };
 
     return (

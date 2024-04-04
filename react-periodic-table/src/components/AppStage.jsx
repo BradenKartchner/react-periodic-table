@@ -3,14 +3,17 @@ import ElementLayer from "./ElementLayer";
 import LabelsLayer from "./LabelsLayer";
 import SideBar from "./SideBar";
 import LegendBar from "./LegendBar";
+import { useState } from "react";
 
 function AppStage() {
+    const [activeElement, setActiveElement] = useState(null);
+
     return (
         <>
             <Stage width={window.innerWidth} height={window.innerHeight}>
                 <LabelsLayer />
-                <ElementLayer />
-                <SideBar />
+                <ElementLayer setActiveElement={setActiveElement} />
+                <SideBar activeElement={activeElement} />
                 <LegendBar />
             </Stage>
         </>
