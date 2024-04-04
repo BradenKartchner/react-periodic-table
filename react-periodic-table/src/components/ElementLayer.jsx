@@ -74,7 +74,7 @@ function ElementLayer(props) {
                         onClick={handleClick}
                     >
                         <Rect
-                            fill={colorScheme[ele.family]}
+                            fill={colorScheme[ele.family][0]}
                             width={xMultiplier}
                             height={yMultiplier}
                             onMouseOver={handleMouseOver}

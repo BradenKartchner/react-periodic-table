@@ -2,17 +2,17 @@
 // https://www.w3schools.com/tags/ref_colornames.asp
 
 let colorScheme = {
-    "Reactive Nonmetals": "lightcyan",
-    "Alkali Metals": "lightcoral",
-    "Noble Gases": "pink",
-    "Alkaline Earth Metals": "lightblue",
-    Metalloids: "lightgreen",
-    "Post-transition Metals": "yellow",
-    Halogens: "mistyrose",
-    "Transition Metals": "navajowhite",
-    Lanthanides: "aqua",
-    Actinides: "cadetblue",
-    Transactinides: "lime",
+    "Reactive Nonmetals": ["lightcyan", "cyan"],
+    "Alkali Metals": ["lightcoral", "lightpink"],
+    "Noble Gases": ["pink", "palevioletred"],
+    "Alkaline Earth Metals": ["lightblue", "lightskyblue"],
+    Metalloids: ["lightgreen", "limegreen"],
+    "Post-transition Metals": ["yellow", "gold"],
+    Halogens: ["mistyrose", "lightpink"],
+    "Transition Metals": ["navajowhite", "burlywood"],
+    Lanthanides: ["aqua", "darkturquoise"],
+    Actinides: ["cadetblue", "darkcyan"],
+    Transactinides: ["lime", "limegreen"],
 };
 
 export default colorScheme;

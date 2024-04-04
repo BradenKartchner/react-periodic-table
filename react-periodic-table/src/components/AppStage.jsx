@@ -6,7 +6,7 @@ import LegendBar from "./LegendBar";
 import { useState } from "react";
 
 function AppStage() {
-    const [activeElement, setActiveElement] = useState(null);
+    const [activeElement, setActiveElement] = useState("Hydrogen");
 
     return (
         <>

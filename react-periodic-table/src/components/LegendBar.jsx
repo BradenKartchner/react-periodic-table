@@ -20,7 +20,7 @@ function LegendBar() {
                     y={legendY + 0.25 * yMultiplier}
                     width={xMultiplier * 9.5 + 27}
                     height={yMultiplier * 2.5 + 6}
-                    fill="lightblue"
+                    fill="lightgrey"
                 />
             </Layer>
         </>

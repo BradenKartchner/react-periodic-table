@@ -14,6 +14,11 @@ function SideBar(props) {
     let elementY = yMultiplier * 0.75;
     let sideX = elementX + xMultiplier * 18.5 + 54;
     let sideY = elementY;
+    let largeBoxMargin = 8;
+
+    // Margins for text
+    let leftTextMargin = largeBoxMargin * 2.5 + sideX;
+    let vertTextMargin = largeBoxMargin * 2.5 + sideY;
 
     const handleMouseOver = (e) => {
         console.log(props.activeElement);
@@ -36,34 +41,48 @@ function SideBar(props) {
                     y={sideY}
                     height={yMultiplier * 9.5 + 8.5 * 3}
                     width={xMultiplier * 4}
-                    fill="lightblue"
+                    fill="lightgrey"
                     onMouseOver={handleMouseOver}
                 />
                 <Rect
-                    x={sideX}
-                    y={sideY}
-                    width={xMultiplier * 4}
-                    height={yMultiplier * 4}
-                    fill={
-                        currEleIndex == -1
-                            ? null
-                            : colorScheme[allElements[currEleIndex].family]
+                    x={sideX + largeBoxMargin}
+                    y={sideY + largeBoxMargin}
+                    width={xMultiplier * 4 - largeBoxMargin * 2}
+                    height={yMultiplier * 4 - largeBoxMargin * 2}
+                    fill={colorScheme[allElements[currEleIndex].family][0]}
+                    stroke={colorScheme[allElements[currEleIndex].family][1]}
+                    strokeWidth={largeBoxMargin}
+                />
+                <Text
+                    x={leftTextMargin}
+                    y={vertTextMargin + xMultiplier / 1.35}
+                    text={allElements[currEleIndex].symbol}
+                    fontStyle="bold"
+                    fontSize={72}
+                />
+                <Text
+                    x={leftTextMargin}
+                    y={vertTextMargin}
+                    text={allElements[currEleIndex].number}
+                    fontStyle="bold"
+                    fontSize={40}
+                />
+                <Text
+                    x={leftTextMargin}
+                    y={vertTextMargin + xMultiplier * 2}
+                    text={allElements[currEleIndex].name}
+                    fontSize={40}
+                    fontFamily={
+                        allElements[currEleIndex].name.length < 9
+                            ? "Arial"
+                            : "Arial Narrow"
                     }
                 />
                 <Text
-                    x={sideX}
-                    y={sideY}
-                    width={xMultiplier * 4}
-                    height={yMultiplier * 4}
-                    text={
-                        currEleIndex == -1
-                            ? null
-                            : allElements[currEleIndex].symbol
-                    }
-                    align="center"
-                    verticalAlign="middle"
-                    fontStyle="bold"
-                    fontSize={32}
+                    x={leftTextMargin}
+                    y={vertTextMargin + xMultiplier * 2.75}
+                    text={allElements[currEleIndex].mass}
+                    fontSize={40}
                 />
             </Layer>
         </>
