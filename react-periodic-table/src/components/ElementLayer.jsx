@@ -25,25 +25,17 @@ function ElementLayer() {
     // const hydrogenRef = useRef(null);
 
     // Idea: use CSS for mouse hover effects??
-    const [fillColor, setFillColor] = useState("lightblue");
-    const [hydroColor, setHydroFillColor] = useState("orange");
-
-    const [hStrokes, setHStrokes] = useState({
-        stroke: null,
-        strokeWidth: null,
-    });
+    const [highlightX, setHighlightX] = useState(startX);
+    const [highlightY, setHighlightY] = useState(startY);
+    const [highlightStroke, setHighlightStroke] = useState(null);
+    const [highlightStrokeWidth, setHighlightStrokeWidth] = useState(0);
 
     const handleMouseOver = (e) => {
         console.log(e.target);
-        const myRect = e.target;
-        if (e.target.attrs.id == "Hydrogen") {
-            setHStrokes({ stroke: "magenta", strokeWidth: 3 });
-        }
-        // setHydroFillColor("brown");
-        // USE STATE VARS IN REACT YOU DUMMY
-        // myRect.fill = "white";
-        // myRect.strokeWidth = 4;
-        // myRect.stroke = "white";
+        setHighlightX(e.target.parent.attrs.x);
+        setHighlightY(e.target.parent.attrs.y);
+        setHighlightStroke("magenta");
+        setHighlightStrokeWidth(3);
     };
 
     return (
@@ -71,14 +63,6 @@ function ElementLayer() {
                             height={yMultiplier}
                             onMouseOver={handleMouseOver}
                             id={ele.name}
-                            stroke={
-                                ele.name == "Hydrogen" ? hStrokes.stroke : null
-                            }
-                            strokeWidth={
-                                ele.name == "Hydrogen"
-                                    ? hStrokes.strokeWidth
-                                    : null
-                            }
                         />
                         <Text
                             text={ele.number}
@@ -111,6 +95,16 @@ function ElementLayer() {
                         />
                     </Group>
                 ))}
+                <Rect
+                    x={highlightX}
+                    y={highlightY}
+                    width={xMultiplier}
+                    height={yMultiplier}
+                    fillEnabled={false}
+                    id="highlightBox"
+                    stroke={highlightStroke}
+                    strokeWidth={highlightStrokeWidth}
+                />
             </Layer>
         </>
     );

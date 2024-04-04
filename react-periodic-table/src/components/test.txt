@@ -19,3 +19,34 @@
 
 From "app.css", #root:
 max-width: 1280px; // was messing with the max width of the periodic table
+
+More shenanigans with state for outlining active element:
+const [fillColor, setFillColor] = useState("lightblue");
+    const [hydroColor, setHydroFillColor] = useState("orange");
+
+    const [hStrokes, setHStrokes] = useState({
+        stroke: null,
+        strokeWidth: null,
+    });
+
+    const strokeObject = {
+        Hydrogen: "not very efficient",
+    };
+
+    if (e.target.attrs.id == "Hydrogen") {
+            setHStrokes({ stroke: "magenta", strokeWidth: 3 });
+        }
+        // setHydroFillColor("brown");
+        // USE STATE VARS IN REACT YOU DUMMY
+        // myRect.fill = "white";
+        // myRect.strokeWidth = 4;
+        // myRect.stroke = "white";
+
+stroke={
+                                ele.name == "Hydrogen" ? hStrokes.stroke : null
+                            }
+                            strokeWidth={
+                                ele.name == "Hydrogen"
+                                    ? hStrokes.strokeWidth
+                                    : null
+                            }
