@@ -50,3 +50,8 @@ stroke={
                                     ? hStrokes.strokeWidth
                                     : null
                             }
+
+const stage = useRef(null);
+
+// console.log("box width: " + xMultiplier);
+    // console.log("box height: " + yMultiplier);

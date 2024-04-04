@@ -12,26 +12,34 @@ function ElementLayer() {
     let xMultiplier = width / 25;
     let yMultiplier = height / 12;
     let startX = xMultiplier * 0.5;
-    //let startX = xMultiplier;
     let startY = yMultiplier * 0.75;
     let xTextMargin = 3;
     let startTextMargin = 3;
     let myFontSize = yMultiplier / 5;
-    // console.log("box width: " + xMultiplier);
-    // console.log("box height: " + yMultiplier);
 
     // React vars
-    const stage = useRef(null);
-    // const hydrogenRef = useRef(null);
-
     // Idea: use CSS for mouse hover effects??
     const [highlightX, setHighlightX] = useState(startX);
     const [highlightY, setHighlightY] = useState(startY);
     const [highlightStroke, setHighlightStroke] = useState(null);
     const [highlightStrokeWidth, setHighlightStrokeWidth] = useState(0);
+    const [hasClicked, setHasClicked] = useState(false);
 
     const handleMouseOver = (e) => {
-        console.log(e.target);
+        //console.log(e.target);
+        if (!hasClicked) {
+            setHighlightX(e.target.parent.attrs.x);
+            setHighlightY(e.target.parent.attrs.y);
+            setHighlightStroke("magenta");
+            setHighlightStrokeWidth(3);
+        }
+    };
+
+    const handleClick = (e) => {
+        //console.log(e.target);
+        if (!hasClicked) {
+            setHasClicked(true);
+        }
         setHighlightX(e.target.parent.attrs.x);
         setHighlightY(e.target.parent.attrs.y);
         setHighlightStroke("magenta");
@@ -56,6 +64,7 @@ function ElementLayer() {
                             (ele.row - 1) * yMultiplier +
                             (ele.row - 1) * 3
                         }
+                        onClick={handleClick}
                     >
                         <Rect
                             fill={colorScheme[ele.family]}
