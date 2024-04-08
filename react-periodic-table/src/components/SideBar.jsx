@@ -3,6 +3,7 @@
 import { Layer, Group, Rect, Text } from "react-konva";
 import allElements from "../ElementData";
 import colorScheme from "../EleColorScheme";
+import SideBarInfo from "./SideBarInfo";
 
 function SideBar(props) {
     let width = window.innerWidth;
@@ -84,6 +85,9 @@ function SideBar(props) {
                     text={allElements[currEleIndex].mass}
                     fontSize={40}
                 />
+                <Group x={sideX} y={sideY + yMultiplier * 4.25}>
+                    <SideBarInfo />
+                </Group>
             </Layer>
         </>
     );

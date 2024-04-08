@@ -16,6 +16,8 @@ function ElementLayer(props) {
     let xTextMargin = 3;
     let startTextMargin = 3;
     let myFontSize = yMultiplier / 5;
+    let mainBarWidth = xMultiplier * 18.75 + xTextMargin * 18.5;
+    let mainBarHeight = yMultiplier * 10.5 + xTextMargin * 9.5;
 
     // React vars
     // Idea: use CSS for mouse hover effects??
@@ -56,6 +58,13 @@ function ElementLayer(props) {
     return (
         <>
             <Layer>
+                <Rect
+                    x={0}
+                    y={0}
+                    fill="rgb(48, 48, 48)"
+                    width={mainBarWidth}
+                    height={mainBarHeight}
+                />
                 {allElements.map((ele) => (
                     <Group
                         width={xMultiplier}

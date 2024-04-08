@@ -11,8 +11,8 @@ function AppStage() {
     return (
         <>
             <Stage width={window.innerWidth} height={window.innerHeight}>
-                <LabelsLayer />
                 <ElementLayer setActiveElement={setActiveElement} />
+                <LabelsLayer />
                 <SideBar activeElement={activeElement} />
                 <LegendBar />
             </Stage>
