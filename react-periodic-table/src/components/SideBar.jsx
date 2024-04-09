@@ -12,7 +12,7 @@ function SideBar(props) {
     let xMultiplier = width / 25;
     let yMultiplier = height / 12;
     let elementX = xMultiplier * 0.5;
-    let elementY = yMultiplier * 0.75;
+    let elementY = yMultiplier * 0.375;
     let sideX = elementX + xMultiplier * 18.5 + 54;
     let sideY = elementY;
     let largeBoxMargin = 8;
