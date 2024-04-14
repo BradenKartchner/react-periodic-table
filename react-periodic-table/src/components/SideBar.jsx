@@ -21,6 +21,19 @@ function SideBar(props) {
     let leftTextMargin = largeBoxMargin * 2.5 + sideX;
     let vertTextMargin = largeBoxMargin * 2.5 + sideY;
 
+    // Side bar object for lookup text
+    const sideBarObj = {
+        name: "More info",
+        family: "Family",
+        mass: "Mass",
+        electron_configuration: "Electron config",
+        relative_electronegativity: "Electronegativity",
+        electron_affinity: "Electron affinity",
+        first_ionization_energy: "1st ionization energy",
+        melting_point: "Melting point",
+        boiling_point: "Boiling point",
+    };
+
     const handleMouseOver = (e) => {
         console.log(props.activeElement);
     };
@@ -33,7 +46,9 @@ function SideBar(props) {
             currEleIndex = i;
         }
     }
-
+    /* TODO: include prop "infoType" to tell which units need to be added after the text, like
+     * degrees C, amu, or even transform the word into a link to wiki
+     */
     return (
         <>
             <Layer>
@@ -86,7 +101,16 @@ function SideBar(props) {
                     fontSize={40}
                 />
                 <Group x={sideX} y={sideY + yMultiplier * 4.25}>
-                    <SideBarInfo />
+                    {Object.entries(sideBarObj).map(([key, val], index) => {
+                        return (
+                            <SideBarInfo
+                                x={0}
+                                y={(yMultiplier / 2) * index}
+                                leftText={val}
+                                rightText={allElements[currEleIndex][key]}
+                            />
+                        );
+                    })}
                 </Group>
             </Layer>
         </>
@@ -94,3 +118,11 @@ function SideBar(props) {
 }
 
 export default SideBar;
+/*
+<SideBarInfo
+                        x={0}
+                        y={0}
+                        leftText={"name"}
+                        rightText={allElements[currEleIndex].name}
+                    /> 
+*/

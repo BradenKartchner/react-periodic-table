@@ -1,7 +1,7 @@
 import { Rect, Text } from "react-konva";
 import { useState } from "react";
 
-function SideBarInfo() {
+function SideBarInfo(props) {
     let width = window.innerWidth;
     let height = window.innerHeight;
 
@@ -26,8 +26,31 @@ function SideBarInfo() {
                 strokeWidth={myStrokeWidth}
                 fill="rgb(48, 48, 48)"
                 onMouseOver={handleMouseOver}
+                x={props.x}
+                y={props.y}
             />
-            <Text />
+            <Text
+                width={xMultiplier * 4}
+                height={yMultiplier / 2}
+                align="left"
+                verticalAlign="middle"
+                text={props.leftText}
+                fill="white"
+                padding={10}
+                x={props.x}
+                y={props.y}
+            />
+            <Text
+                width={xMultiplier * 4}
+                height={yMultiplier / 2}
+                align="right"
+                verticalAlign="middle"
+                text={props.rightText}
+                fill="white"
+                padding={10}
+                x={props.x}
+                y={props.y}
+            />
         </>
     );
 }
