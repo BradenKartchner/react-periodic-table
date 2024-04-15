@@ -2,7 +2,7 @@
 // noble gases, transition metals, post-transition metals, metalloids, Lanthanides, Actinides, transActinides
 
 /*
- * As of 4/15, all data up through and including Al is accurate. Anything past Al is just
+ * As of 4/15, all data up through and including Phosphorus is accurate. Anything past P is just
  * copy and pasted template data for electron config through ionization energy for dev purposes
  * TODO: add Wikipedia link for each element, implement pop up window with fetched data from wiki
  */
@@ -210,11 +210,11 @@ const allElements = [
         mass: 28.085,
         family: "Metalloids",
         electron_configuration: "[Ne] 3s2 3p2",
-        melting_point: 660.32,
-        boiling_point: 2519,
-        relative_electronegativity: 1.61,
-        electron_affinity: 42.5,
-        first_ionization_energy: 577.5,
+        melting_point: "1414 \u00B0C",
+        boiling_point: "2900 \u00B0C",
+        relative_electronegativity: 1.9,
+        electron_affinity: "133.6 kJ/mol",
+        first_ionization_energy: "786.5 kJ/mol",
         row: 3,
         col: 14,
     },
@@ -225,11 +225,11 @@ const allElements = [
         mass: 30.974,
         family: "Reactive Nonmetals",
         electron_configuration: "[Ne] 3s2 3p3",
-        melting_point: 660.32,
-        boiling_point: 2519,
-        relative_electronegativity: 1.61,
-        electron_affinity: 42.5,
-        first_ionization_energy: 577.5,
+        melting_point: "44.15 \u00B0C",
+        boiling_point: "280.5 \u00B0C",
+        relative_electronegativity: 2.19,
+        electron_affinity: "72 kJ/mol",
+        first_ionization_energy: "1011.8 kJ/mol",
         row: 3,
         col: 15,
     },

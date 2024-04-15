@@ -62,7 +62,7 @@ function SideBar(props) {
                     y={sideY}
                     height={yMultiplier * 9.5 + 8.5 * 3}
                     width={xMultiplier * 4}
-                    fill="lightgrey"
+                    fill="black"
                     onMouseOver={handleMouseOver}
                 />
                 <Rect

@@ -46,7 +46,14 @@ function SideBarInfo(props) {
                 align="right"
                 verticalAlign="middle"
                 text={props.rightText}
-                fill="white"
+                fill={
+                    props.leftText == "More info"
+                        ? "rgb(88, 143, 253)"
+                        : "white"
+                }
+                textDecoration={
+                    props.leftText == "More info" ? "underline" : ""
+                }
                 padding={10}
                 onMouseOver={handleMouseOver}
                 x={props.x}
