@@ -26,7 +26,7 @@ function SideBar(props) {
     const sideBarObj = {
         name: "More info",
         family: "Family",
-        mass: "Mass",
+        mass: "Mass (amu)",
         electron_configuration: "Electron config",
         relative_electronegativity: "Electronegativity",
         electron_affinity: "Electron affinity",
@@ -55,7 +55,6 @@ function SideBar(props) {
     }
     /* TODO: include prop "infoType" to tell which units need to be added after the text, like
      * degrees C, amu, or even transform the word into a link to wiki.
-     * Also: add hover functionality to side bar with highlighting
      */
     return (
         <>
