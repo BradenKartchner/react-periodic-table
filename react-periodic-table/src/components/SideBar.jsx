@@ -53,9 +53,7 @@ function SideBar(props) {
             currEleIndex = i;
         }
     }
-    /* TODO: include prop "infoType" to tell which units need to be added after the text, like
-     * degrees C, amu, or even transform the word into a link to wiki.
-     */
+
     return (
         <>
             <Layer>
