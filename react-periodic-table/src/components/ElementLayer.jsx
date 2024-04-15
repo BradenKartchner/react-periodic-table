@@ -83,7 +83,18 @@ function ElementLayer(props) {
                         onClick={handleClick}
                     >
                         <Rect
-                            fill={colorScheme[ele.family][0]}
+                            fill={
+                                ele.family == props.activeFamily ||
+                                props.activeFamily == "None"
+                                    ? colorScheme[ele.family][0]
+                                    : "rgb(48, 48, 48"
+                            }
+                            stroke={
+                                ele.family != props.activeFamily ||
+                                props.activeFamily != "None"
+                                    ? "none"
+                                    : "black"
+                            }
                             width={xMultiplier}
                             height={yMultiplier}
                             onMouseOver={handleMouseOver}

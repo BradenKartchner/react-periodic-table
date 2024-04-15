@@ -1,8 +1,9 @@
 /* For the legend above the table containing all the families */
+import { useState } from "react";
 import { Layer, Group, Rect, Text } from "react-konva";
 import colorScheme from "../EleColorScheme";
 
-function LegendBar() {
+function LegendBar(props) {
     let width = window.innerWidth;
     let height = window.innerHeight;
 
@@ -22,6 +23,36 @@ function LegendBar() {
     let eleWidth = (backgroundWidth * 2) / 30 - famMargin;
     let eleHeight = (backgroundHeight * 4) / 5;
     let transitionEleHeight = eleHeight / 4 - famMargin;
+
+    // State vars for highlight box
+    const [highlightWidth, setHighlightWidth] = useState(0);
+    const [highlightHeight, setHighlightHeight] = useState(0);
+    const [highlightX, setHighlightX] = useState(0);
+    const [highlightY, setHighlightY] = useState(0);
+    const [highlightStroke, setHighlightStroke] = useState("none");
+    const [highlightStrokeWidth, setHighlightStrokeWidth] = useState(0);
+
+    // Event handlers
+    const handleMouseOver = (eve) => {
+        console.log(eve.target);
+        props.setActiveFamily(eve.target.attrs.text);
+        setHighlightX(eve.target.parent.children[eve.target.index - 1].attrs.x);
+        setHighlightY(eve.target.parent.children[eve.target.index - 1].attrs.y);
+        setHighlightWidth(
+            eve.target.parent.children[eve.target.index - 1].attrs.width
+        );
+        setHighlightHeight(
+            eve.target.parent.children[eve.target.index - 1].attrs.height
+        );
+        setHighlightStrokeWidth(3);
+        setHighlightStroke("magenta");
+    };
+
+    const handleMouseOut = (eve) => {
+        props.setActiveFamily("None");
+        setHighlightStroke("rgb(48, 48, 48)");
+        setHighlightStrokeWidth(0);
+    };
 
     return (
         <>
@@ -97,6 +128,8 @@ function LegendBar() {
                         verticalAlign="middle"
                         fontSize={14}
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth}
@@ -117,6 +150,8 @@ function LegendBar() {
                         verticalAlign="middle"
                         fontSize={14}
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth * 3 + famMargin * 2}
@@ -134,6 +169,8 @@ function LegendBar() {
                         align="center"
                         verticalAlign="middle"
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth * 3 + famMargin * 2}
@@ -161,6 +198,8 @@ function LegendBar() {
                         align="center"
                         verticalAlign="middle"
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth * 3 + famMargin * 2}
@@ -188,6 +227,8 @@ function LegendBar() {
                         align="center"
                         verticalAlign="middle"
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth * 3 + famMargin * 2}
@@ -215,6 +256,8 @@ function LegendBar() {
                         align="center"
                         verticalAlign="middle"
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth}
@@ -235,6 +278,8 @@ function LegendBar() {
                         verticalAlign="middle"
                         fontSize={14}
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth}
@@ -255,6 +300,8 @@ function LegendBar() {
                         verticalAlign="middle"
                         fontSize={14}
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth}
@@ -275,6 +322,8 @@ function LegendBar() {
                         verticalAlign="middle"
                         fontSize={12}
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth}
@@ -295,6 +344,8 @@ function LegendBar() {
                         verticalAlign="middle"
                         fontSize={14}
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
                     />
                     <Rect
                         width={eleWidth}
@@ -315,6 +366,18 @@ function LegendBar() {
                         verticalAlign="middle"
                         fontSize={14}
                         fontStyle="bold"
+                        onMouseOver={handleMouseOver}
+                        onMouseOut={handleMouseOut}
+                    />
+                    <Rect
+                        x={highlightX}
+                        y={highlightY}
+                        width={highlightWidth}
+                        height={highlightHeight}
+                        fillEnabled={false}
+                        stroke={highlightStroke}
+                        strokeWidth={highlightStrokeWidth}
+                        cornerRadius={2}
                     />
                 </Group>
             </Layer>

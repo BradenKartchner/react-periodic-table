@@ -42,7 +42,7 @@ function SideBar(props) {
     const [highlightWidth, setHighlightWidth] = useState(3);
 
     const handleMouseOver = (e) => {
-        console.log(props.activeElement);
+        //console.log(props.activeElement);
     };
 
     let currEleIndex = -1;
