@@ -8,13 +8,12 @@ function SideBarInfo(props) {
     let xMultiplier = width / 25;
     let yMultiplier = height / 12;
     let myStrokeWidth = 2;
-    // let myStrokeColor = "black";
-
-    // State vars
-    let [myStrokeColor, setMyStrokeColor] = useState("black");
+    let myStrokeColor = "black";
 
     const handleMouseOver = (eve) => {
-        console.log(eve.target);
+        //console.log(eve.target.attrs);
+        props.setHighlightY(eve.target.attrs.y);
+        props.setHighlightStrokeColor("rgb(88, 143, 253)");
     };
 
     return (
@@ -37,6 +36,7 @@ function SideBarInfo(props) {
                 text={props.leftText}
                 fill="white"
                 padding={10}
+                onMouseOver={handleMouseOver}
                 x={props.x}
                 y={props.y}
             />
@@ -48,6 +48,7 @@ function SideBarInfo(props) {
                 text={props.rightText}
                 fill="white"
                 padding={10}
+                onMouseOver={handleMouseOver}
                 x={props.x}
                 y={props.y}
             />

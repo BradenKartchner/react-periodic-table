@@ -1,5 +1,6 @@
 /* For the side bar containing expanded element information */
 
+import { useState } from "react";
 import { Layer, Group, Rect, Text } from "react-konva";
 import allElements from "../ElementData";
 import colorScheme from "../EleColorScheme";
@@ -34,6 +35,12 @@ function SideBar(props) {
         boiling_point: "Boiling point",
     };
 
+    // State vars for side bar highlight
+    const [highlightX, setHighlightX] = useState(0);
+    const [highlightY, setHighlightY] = useState(0);
+    const [highlightStrokeColor, setHighlightStrokeColor] = useState("black");
+    const [highlightWidth, setHighlightWidth] = useState(3);
+
     const handleMouseOver = (e) => {
         console.log(props.activeElement);
     };
@@ -47,7 +54,8 @@ function SideBar(props) {
         }
     }
     /* TODO: include prop "infoType" to tell which units need to be added after the text, like
-     * degrees C, amu, or even transform the word into a link to wiki
+     * degrees C, amu, or even transform the word into a link to wiki.
+     * Also: add hover functionality to side bar with highlighting
      */
     return (
         <>
@@ -108,9 +116,25 @@ function SideBar(props) {
                                 y={(yMultiplier / 2) * index}
                                 leftText={val}
                                 rightText={allElements[currEleIndex][key]}
+                                key={index}
+                                setHighlightX={setHighlightX}
+                                setHighlightY={setHighlightY}
+                                setHighlightStrokeColor={
+                                    setHighlightStrokeColor
+                                }
                             />
                         );
                     })}
+                    <Rect
+                        fillEnabled={false}
+                        width={xMultiplier * 4}
+                        height={yMultiplier / 2}
+                        x={highlightX}
+                        y={highlightY}
+                        stroke={highlightStrokeColor}
+                        strokeWidth={highlightWidth}
+                        cornerRadius={2}
+                    />
                 </Group>
             </Layer>
         </>

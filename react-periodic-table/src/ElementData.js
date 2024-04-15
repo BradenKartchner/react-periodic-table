@@ -265,7 +265,7 @@ const allElements = [
     },
     {
         name: "Argon",
-        symbol: "Cl",
+        symbol: "Ar",
         number: 18,
         mass: 39.948,
         family: "Noble Gases",

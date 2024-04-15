@@ -7,14 +7,21 @@ import { useState } from "react";
 
 function AppStage() {
     const [activeElement, setActiveElement] = useState("Hydrogen");
+    const [activeFamily, setActiveFamily] = useState("None");
 
     return (
         <>
             <Stage width={window.innerWidth} height={window.innerHeight}>
-                <ElementLayer setActiveElement={setActiveElement} />
+                <ElementLayer
+                    setActiveElement={setActiveElement}
+                    activeFamily={activeFamily}
+                />
                 <LabelsLayer />
                 <SideBar activeElement={activeElement} />
-                <LegendBar />
+                <LegendBar
+                    activeFamily={activeFamily}
+                    setActiveFamily={setActiveFamily}
+                />
             </Stage>
         </>
     );
