@@ -12,13 +12,19 @@ react-konva-utils
 
 Additional features to add:
 
--   Pull up Wiki article in <iframe> element when clicking on "More info" in side bar
 -   options for degrees C and K in side bar info
 -   make click on already clicked element change focus back to transitory
 
 Formatting to fix:
 
 -   Force background color to be the same for dark and light mode
+
+Issue that had to solve for Vercel deployment:
+Had to change root dir to "react-periodic-table" (within the first root dir of "react-periodic-table")
+Having nested folders with the same name either confused the build or the build scripts
+were just nested in the inner folder of that name
+Figured it out from this comment on issue on GitHub:
+"I had the same issue. My folder structure was Project Name > Project Name > Project Files. Cleared it to just Project Name > Project Files. Happened when I imported from github I guess and never really fixed it. Fixed it after I got the error and it worked. Not sure if that was the problem, could have been a file not in the right place but it worked after. That was my experience anyways. I went to Vercel and it was already live."
 
 # React + Vite
 
