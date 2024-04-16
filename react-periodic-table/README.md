@@ -10,6 +10,7 @@ Additional features to add:
 
 -   Pull up Wiki article in <iframe> element when clicking on "More info" in side bar
 -   options for degrees C and K in side bar info
+-   make click on already clicked element change focus back to transitory
 
 Formatting to fix:
 
