@@ -55,3 +55,14 @@ const stage = useRef(null);
 
 // console.log("box width: " + xMultiplier);
     // console.log("box height: " + yMultiplier);
+
+
+// `margin-top:${popUpY}px; margin-left:${popUpX};`
+/*
+<SideBarInfo
+                        x={0}
+                        y={0}
+                        leftText={"name"}
+                        rightText={allElements[currEleIndex].name}
+                    /> 
+*/

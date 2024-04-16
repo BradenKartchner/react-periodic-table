@@ -302,13 +302,3 @@ function SideBar(props) {
 }
 
 export default SideBar;
-
-// `margin-top:${popUpY}px; margin-left:${popUpX};`
-/*
-<SideBarInfo
-                        x={0}
-                        y={0}
-                        leftText={"name"}
-                        rightText={allElements[currEleIndex].name}
-                    /> 
-*/
