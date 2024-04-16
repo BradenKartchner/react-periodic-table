@@ -12,7 +12,7 @@ function LabelsLayer() {
     } else {
         width = window.innerWidth;
     }
-    if (window.innerHeight < 700 || window.innerWidth > 800) {
+    if (window.innerHeight < 700 || window.innerHeight > 800) {
         height = 710;
     } else {
         height = window.innerHeight;
