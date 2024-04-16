@@ -51,16 +51,20 @@ function SideBarInfo(props) {
                 verticalAlign="middle"
                 text={props.rightText}
                 fill={
-                    props.leftText == "More info"
+                    props.leftText == "Info (click on right)"
                         ? "rgb(88, 143, 253)"
                         : "white"
                 }
                 textDecoration={
-                    props.leftText == "More info" ? "underline" : ""
+                    props.leftText == "Info (click on right)" ? "underline" : ""
                 }
                 padding={10}
                 onMouseOver={handleMouseOver}
-                onClick={props.leftText == "More info" ? handleLinkClick : ""}
+                onClick={
+                    props.leftText == "Info (click on right)"
+                        ? handleLinkClick
+                        : ""
+                }
                 x={props.x}
                 y={props.y}
             />

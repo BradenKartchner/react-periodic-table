@@ -214,7 +214,7 @@ const allElements = [
         first_ionization_energy: "577.5 kJ/mol",
         row: 3,
         col: 13,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Aluminium",
     },
     {
         name: "Silicon",
@@ -230,7 +230,7 @@ const allElements = [
         first_ionization_energy: "786.5 kJ/mol",
         row: 3,
         col: 14,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Silicon",
     },
     {
         name: "Phosphorus",
@@ -246,7 +246,7 @@ const allElements = [
         first_ionization_energy: "1011.8 kJ/mol",
         row: 3,
         col: 15,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Phosphorus",
     },
     {
         name: "Sulfur",
@@ -262,7 +262,7 @@ const allElements = [
         first_ionization_energy: "999.6 kJ/mol",
         row: 3,
         col: 16,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Sulfur",
     },
     {
         name: "Chlorine",
@@ -278,7 +278,7 @@ const allElements = [
         first_ionization_energy: "1251.2 kJ/mol",
         row: 3,
         col: 17,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Chlorine",
     },
     {
         name: "Argon",
@@ -294,7 +294,7 @@ const allElements = [
         first_ionization_energy: "1520.6 kJ/mol",
         row: 3,
         col: 18,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Argon",
     },
     {
         name: "Potassium",
@@ -310,7 +310,7 @@ const allElements = [
         first_ionization_energy: "418.8 kJ/mol",
         row: 4,
         col: 1,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Potassium",
     },
     {
         name: "Calcium",
@@ -326,7 +326,7 @@ const allElements = [
         first_ionization_energy: "652.1 kJ/mol",
         row: 4,
         col: 2,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Calcium",
     },
     {
         name: "Scandium",
@@ -342,7 +342,7 @@ const allElements = [
         first_ionization_energy: "633.1 kJ/mol",
         row: 4,
         col: 3,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Scandium",
     },
     {
         name: "Titanium",
@@ -358,7 +358,7 @@ const allElements = [
         first_ionization_energy: "658.8 kJ/mol",
         row: 4,
         col: 4,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Titanium",
     },
     {
         name: "Vanadium",
@@ -374,7 +374,7 @@ const allElements = [
         first_ionization_energy: "650.9 kJ/mol",
         row: 4,
         col: 5,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Vanadium",
     },
     {
         name: "Chromium",
@@ -390,7 +390,7 @@ const allElements = [
         first_ionization_energy: "652.9 kJ/mol",
         row: 4,
         col: 6,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Chromium",
     },
     {
         name: "Manganese",
@@ -406,7 +406,7 @@ const allElements = [
         first_ionization_energy: "717.3 kJ/mol",
         row: 4,
         col: 7,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Manganese",
     },
     {
         name: "Iron",
@@ -422,7 +422,7 @@ const allElements = [
         first_ionization_energy: "762.5 kJ/mol",
         row: 4,
         col: 8,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Iron",
     },
     {
         name: "Cobalt",
@@ -438,7 +438,7 @@ const allElements = [
         first_ionization_energy: "760.4 kJ/mol",
         row: 4,
         col: 9,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Cobalt",
     },
     {
         name: "Nickel",
@@ -454,7 +454,7 @@ const allElements = [
         first_ionization_energy: "737.1 kJ/mol",
         row: 4,
         col: 10,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Nickel",
     },
     {
         name: "Copper",
@@ -470,7 +470,7 @@ const allElements = [
         first_ionization_energy: "745.5 kJ/mol",
         row: 4,
         col: 11,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Copper",
     },
     {
         name: "Zinc",
@@ -486,7 +486,7 @@ const allElements = [
         first_ionization_energy: "906.4 kJ/mol",
         row: 4,
         col: 12,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Zinc",
     },
     {
         name: "Gallium",
@@ -502,7 +502,7 @@ const allElements = [
         first_ionization_energy: "578.8 kJ/mol",
         row: 4,
         col: 13,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Gallium",
     },
     {
         name: "Germanium",
@@ -518,7 +518,7 @@ const allElements = [
         first_ionization_energy: "762 kJ/mol",
         row: 4,
         col: 14,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Germanium",
     },
     {
         name: "Arsenic",
@@ -534,7 +534,7 @@ const allElements = [
         first_ionization_energy: "947 kJ/mol",
         row: 4,
         col: 15,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Arsenic",
     },
     {
         name: "Selenium",
@@ -550,7 +550,7 @@ const allElements = [
         first_ionization_energy: "941 kJ/mol",
         row: 4,
         col: 16,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Selenium",
     },
     {
         name: "Bromine",
@@ -566,7 +566,7 @@ const allElements = [
         first_ionization_energy: "1139.9 kJ/mol",
         row: 4,
         col: 17,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Bromine",
     },
     {
         name: "Krypton",
@@ -582,7 +582,7 @@ const allElements = [
         first_ionization_energy: "1350.8 kJ/mol",
         row: 4,
         col: 18,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Krypton",
     },
     {
         name: "Rubidium",
@@ -598,7 +598,7 @@ const allElements = [
         first_ionization_energy: "403 kJ/mol",
         row: 5,
         col: 1,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Rubidium",
     },
     {
         name: "Strontium",
@@ -614,7 +614,7 @@ const allElements = [
         first_ionization_energy: "549.5 kJ/mol",
         row: 5,
         col: 2,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Strontium",
     },
     {
         name: "Yttrium",
@@ -630,7 +630,7 @@ const allElements = [
         first_ionization_energy: "600 kJ/mol",
         row: 5,
         col: 3,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Yttrium",
     },
     {
         name: "Zirconium",
@@ -646,7 +646,7 @@ const allElements = [
         first_ionization_energy: "640.1 kJ/mol",
         row: 5,
         col: 4,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Zirconium",
     },
     {
         name: "Niobium",
@@ -662,7 +662,7 @@ const allElements = [
         first_ionization_energy: "652.1 kJ/mol",
         row: 5,
         col: 5,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Niobium",
     },
     {
         name: "Molybdenum",
@@ -678,7 +678,7 @@ const allElements = [
         first_ionization_energy: "684.3 kJ/mol",
         row: 5,
         col: 6,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Molybdenum",
     },
     {
         name: "Technetium",
@@ -694,7 +694,7 @@ const allElements = [
         first_ionization_energy: "702 kJ/mol",
         row: 5,
         col: 7,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Technetium",
     },
     {
         name: "Ruthenium",
@@ -710,7 +710,7 @@ const allElements = [
         first_ionization_energy: "710.2 kJ/mol",
         row: 5,
         col: 8,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Ruthenium",
     },
     {
         name: "Rhodium",
@@ -726,7 +726,7 @@ const allElements = [
         first_ionization_energy: "719.7 kJ/mol",
         row: 5,
         col: 9,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Rhodium",
     },
     {
         name: "Palladium",
@@ -742,7 +742,7 @@ const allElements = [
         first_ionization_energy: "804.4 kJ/mol",
         row: 5,
         col: 10,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Palladium",
     },
     {
         name: "Silver",
@@ -758,7 +758,7 @@ const allElements = [
         first_ionization_energy: "731 kJ/mol",
         row: 5,
         col: 11,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Silver",
     },
     {
         name: "Cadmium",
@@ -774,7 +774,7 @@ const allElements = [
         first_ionization_energy: "867.8 kJ/mol",
         row: 5,
         col: 12,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Cadmium",
     },
     {
         name: "Indium",
@@ -790,7 +790,7 @@ const allElements = [
         first_ionization_energy: "558.3 kJ/mol",
         row: 5,
         col: 13,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Indium",
     },
     {
         name: "Tin",
@@ -806,7 +806,7 @@ const allElements = [
         first_ionization_energy: "708.6 kJ/mol",
         row: 5,
         col: 14,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Tin",
     },
     {
         name: "Antimony",
@@ -822,7 +822,7 @@ const allElements = [
         first_ionization_energy: "834 kJ/mol",
         row: 5,
         col: 15,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Antimony",
     },
     {
         name: "Tellurium",
@@ -838,7 +838,7 @@ const allElements = [
         first_ionization_energy: "869.3 kJ/mol",
         row: 5,
         col: 16,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Tellurium",
     },
     {
         name: "Iodine",
@@ -854,7 +854,7 @@ const allElements = [
         first_ionization_energy: "1008.4 kJ/mol",
         row: 5,
         col: 17,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Iodine",
     },
     {
         name: "Xenon",
@@ -870,7 +870,7 @@ const allElements = [
         first_ionization_energy: "1170.4 kJ/mol",
         row: 5,
         col: 18,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Xenon",
     },
     {
         name: "Caesium",
@@ -886,7 +886,7 @@ const allElements = [
         first_ionization_energy: "375.7 kJ/mol",
         row: 6,
         col: 1,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Caesium",
     },
     {
         name: "Barium",
@@ -902,7 +902,7 @@ const allElements = [
         first_ionization_energy: "502.9 kJ/mol",
         row: 6,
         col: 2,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Barium",
     },
     {
         name: "Lanthanum",
@@ -918,7 +918,7 @@ const allElements = [
         first_ionization_energy: "538.1 kJ/mol",
         row: 8.5,
         col: 4,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Lanthanum",
     },
     {
         name: "Cerium",
@@ -934,7 +934,7 @@ const allElements = [
         first_ionization_energy: "534.4 kJ/mol",
         row: 8.5,
         col: 5,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Cerium",
     },
     {
         name: "Praseodymium",
@@ -950,7 +950,7 @@ const allElements = [
         first_ionization_energy: "527 kJ/mol",
         row: 8.5,
         col: 6,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Praseodymium",
     },
     {
         name: "Neodymium",
@@ -966,7 +966,7 @@ const allElements = [
         first_ionization_energy: "533.1 kJ/mol",
         row: 8.5,
         col: 7,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Neodymium",
     },
     {
         name: "Promethium",
@@ -982,7 +982,7 @@ const allElements = [
         first_ionization_energy: "540 kJ/mol",
         row: 8.5,
         col: 8,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Promethium",
     },
     {
         name: "Samarium",
@@ -998,7 +998,7 @@ const allElements = [
         first_ionization_energy: "544.5 kJ/mol",
         row: 8.5,
         col: 9,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Samarium",
     },
     {
         name: "Europium",
@@ -1014,7 +1014,7 @@ const allElements = [
         first_ionization_energy: "547.1 kJ/mol",
         row: 8.5,
         col: 10,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Europium",
     },
     {
         name: "Gadolinium",
@@ -1030,7 +1030,7 @@ const allElements = [
         first_ionization_energy: "593.4 kJ/mol",
         row: 8.5,
         col: 11,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Gadolinium",
     },
     {
         name: "Terbium",
@@ -1046,7 +1046,7 @@ const allElements = [
         first_ionization_energy: "565.8 kJ/mol",
         row: 8.5,
         col: 12,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Terbium",
     },
     {
         name: "Dysprosium",
@@ -1062,7 +1062,7 @@ const allElements = [
         first_ionization_energy: "573 kJ/mol",
         row: 8.5,
         col: 13,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Dysprosium",
     },
     {
         name: "Holmium",
@@ -1078,7 +1078,7 @@ const allElements = [
         first_ionization_energy: "581 kJ/mol",
         row: 8.5,
         col: 14,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Holmium",
     },
     {
         name: "Erbium",
@@ -1094,7 +1094,7 @@ const allElements = [
         first_ionization_energy: "589.3 kJ/mol",
         row: 8.5,
         col: 15,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Erbium",
     },
     {
         name: "Thulium",
@@ -1110,7 +1110,7 @@ const allElements = [
         first_ionization_energy: "596.7 kJ/mol",
         row: 8.5,
         col: 16,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Thulium",
     },
     {
         name: "Ytterbium",
@@ -1126,7 +1126,7 @@ const allElements = [
         first_ionization_energy: "503.4 kJ/mol",
         row: 8.5,
         col: 17,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Ytterbium",
     },
     {
         name: "Lutetium",
@@ -1142,7 +1142,7 @@ const allElements = [
         first_ionization_energy: "523.5 kJ/mol",
         row: 8.5,
         col: 18,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Lutetium",
     },
     {
         name: "Hafnium",
@@ -1158,7 +1158,7 @@ const allElements = [
         first_ionization_energy: "658.5 kJ/mol",
         row: 6,
         col: 4,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Hafnium",
     },
     {
         name: "Tantalum",
@@ -1174,7 +1174,7 @@ const allElements = [
         first_ionization_energy: "761 kJ/mol",
         row: 6,
         col: 5,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Tantalum",
     },
     {
         name: "Tungsten",
@@ -1190,7 +1190,7 @@ const allElements = [
         first_ionization_energy: "770 kJ/mol",
         row: 6,
         col: 6,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Tungsten",
     },
     {
         name: "Rhenium",
@@ -1206,7 +1206,7 @@ const allElements = [
         first_ionization_energy: "760 kJ/mol",
         row: 6,
         col: 7,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Rhenium",
     },
     {
         name: "Osmium",
@@ -1222,7 +1222,7 @@ const allElements = [
         first_ionization_energy: "840 kJ/mol",
         row: 6,
         col: 8,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Osmium",
     },
     {
         name: "Iridium",
@@ -1238,7 +1238,7 @@ const allElements = [
         first_ionization_energy: "880 kJ/mol",
         row: 6,
         col: 9,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Iridium",
     },
     {
         name: "Platinum",
@@ -1254,7 +1254,7 @@ const allElements = [
         first_ionization_energy: "870 kJ/mol",
         row: 6,
         col: 10,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Platinum",
     },
     {
         name: "Gold",
@@ -1270,7 +1270,7 @@ const allElements = [
         first_ionization_energy: "890.1 kJ/mol",
         row: 6,
         col: 11,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Gold",
     },
     {
         name: "Mercury",
@@ -1286,7 +1286,7 @@ const allElements = [
         first_ionization_energy: "1007.1 kJ/mol",
         row: 6,
         col: 12,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Mercury_(element)",
     },
     {
         name: "Thallium",
@@ -1302,7 +1302,7 @@ const allElements = [
         first_ionization_energy: "589.4 kJ/mol",
         row: 6,
         col: 13,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Thallium",
     },
     {
         name: "Lead",
@@ -1318,7 +1318,7 @@ const allElements = [
         first_ionization_energy: "715.6 kJ/mol",
         row: 6,
         col: 14,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Lead",
     },
     {
         name: "Bismuth",
@@ -1334,7 +1334,7 @@ const allElements = [
         first_ionization_energy: "703 kJ/mol",
         row: 6,
         col: 15,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Bismuth",
     },
     {
         name: "Polonium",
@@ -1350,7 +1350,7 @@ const allElements = [
         first_ionization_energy: "812.1 kJ/mol",
         row: 6,
         col: 16,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Polonium",
     },
     {
         name: "Astatine",
@@ -1366,7 +1366,7 @@ const allElements = [
         first_ionization_energy: "890 kJ/mol",
         row: 6,
         col: 17,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Astatine",
     },
     {
         name: "Radon",
@@ -1382,7 +1382,7 @@ const allElements = [
         first_ionization_energy: "1037 kJ/mol",
         row: 6,
         col: 18,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Radon",
     },
     {
         name: "Francium",
@@ -1398,7 +1398,7 @@ const allElements = [
         first_ionization_energy: "380 kJ/mol",
         row: 7,
         col: 1,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Francium",
     },
     {
         name: "Radium",
@@ -1414,7 +1414,7 @@ const allElements = [
         first_ionization_energy: "509.3 kJ/mol",
         row: 7,
         col: 2,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Radium",
     },
     {
         name: "Actinium",
@@ -1430,7 +1430,7 @@ const allElements = [
         first_ionization_energy: "499 kJ/mol",
         row: 9.5,
         col: 4,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Actinium",
     },
     {
         name: "Thorium",
@@ -1446,7 +1446,7 @@ const allElements = [
         first_ionization_energy: "587 kJ/mol",
         row: 9.5,
         col: 5,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Thorium",
     },
     {
         name: "Protactinium",
@@ -1462,7 +1462,7 @@ const allElements = [
         first_ionization_energy: "568 kJ/mol",
         row: 9.5,
         col: 6,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Protactinium",
     },
     {
         name: "Uranium",
@@ -1478,7 +1478,7 @@ const allElements = [
         first_ionization_energy: "597.6 kJ/mol",
         row: 9.5,
         col: 7,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Uranium",
     },
     {
         name: "Neptunium",
@@ -1494,7 +1494,7 @@ const allElements = [
         first_ionization_energy: "604.5 kJ/mol",
         row: 9.5,
         col: 8,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Neptunium",
     },
     {
         name: "Plutonium",
@@ -1510,7 +1510,7 @@ const allElements = [
         first_ionization_energy: "584.7 kJ/mol",
         row: 9.5,
         col: 9,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Plutonium",
     },
     {
         name: "Americium",
@@ -1526,7 +1526,7 @@ const allElements = [
         first_ionization_energy: "578 kJ/mol",
         row: 9.5,
         col: 10,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Americium",
     },
     {
         name: "Curium",
@@ -1542,7 +1542,7 @@ const allElements = [
         first_ionization_energy: "581 kJ/mol",
         row: 9.5,
         col: 11,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Curium",
     },
     {
         name: "Berkelium",
@@ -1558,7 +1558,7 @@ const allElements = [
         first_ionization_energy: "601 kJ/mol",
         row: 9.5,
         col: 12,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Berkelium",
     },
     {
         name: "Californium",
@@ -1574,7 +1574,7 @@ const allElements = [
         first_ionization_energy: "608 kJ/mol",
         row: 9.5,
         col: 13,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Californium",
     },
     {
         name: "Einsteinium",
@@ -1590,7 +1590,7 @@ const allElements = [
         first_ionization_energy: "619 kJ/mol",
         row: 9.5,
         col: 14,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Einsteinium",
     },
     {
         name: "Fermium",
@@ -1606,7 +1606,7 @@ const allElements = [
         first_ionization_energy: "627 kJ/mol",
         row: 9.5,
         col: 15,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Fermium",
     },
     {
         name: "Mendelevium",
@@ -1622,7 +1622,7 @@ const allElements = [
         first_ionization_energy: "635 kJ/mol",
         row: 9.5,
         col: 16,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Mendelevium",
     },
     {
         name: "Nobelium",
@@ -1638,7 +1638,7 @@ const allElements = [
         first_ionization_energy: "642 kJ/mol",
         row: 9.5,
         col: 17,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Nobelium",
     },
     {
         name: "Lawrencium",
@@ -1654,7 +1654,7 @@ const allElements = [
         first_ionization_energy: "470 kJ/mol",
         row: 9.5,
         col: 18,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Lawrencium",
     },
     {
         name: "Rutherfordium",
@@ -1670,7 +1670,7 @@ const allElements = [
         first_ionization_energy: "580 kJ/mol",
         row: 7,
         col: 4,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Rutherfordium",
     },
     {
         name: "Dubnium",
@@ -1686,7 +1686,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 5,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Dubnium",
     },
     {
         name: "Seaborgium",
@@ -1702,7 +1702,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 6,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Seaborgium",
     },
     {
         name: "Bohrium",
@@ -1718,7 +1718,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 7,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Bohrium",
     },
     {
         name: "Hassium",
@@ -1734,7 +1734,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 8,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Hassium",
     },
     {
         name: "Meitnerium",
@@ -1750,7 +1750,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 9,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Meitnerium",
     },
     {
         name: "Damstatium",
@@ -1766,7 +1766,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 10,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Darmstadtium",
     },
     {
         name: "Roentgenium",
@@ -1782,7 +1782,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 11,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Roentgenium",
     },
     {
         name: "Copernicium",
@@ -1798,7 +1798,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 12,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Copernicium",
     },
     {
         name: "Nihonium",
@@ -1814,7 +1814,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 13,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Nihonium",
     },
     {
         name: "Flerovium",
@@ -1830,7 +1830,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 14,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Flerovium",
     },
     {
         name: "Moscovium",
@@ -1846,7 +1846,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 15,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Moscovium",
     },
     {
         name: "Livermorium",
@@ -1862,7 +1862,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 16,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Livermorium",
     },
     {
         name: "Tennessine",
@@ -1878,7 +1878,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 17,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Tennessine",
     },
     {
         name: "Oganesson",
@@ -1894,7 +1894,7 @@ const allElements = [
         first_ionization_energy: "N/A",
         row: 7,
         col: 18,
-        wiki_source: "",
+        wiki_source: "https://en.wikipedia.org/wiki/Oganesson",
     },
 ];
 

@@ -37,7 +37,7 @@ function SideBar(props) {
 
     // Side bar object for lookup text
     const sideBarObj = {
-        name: "More info",
+        name: "Info (click on right)",
         family: "Family",
         mass: "Mass (amu)",
         electron_configuration: "Electron config",
@@ -259,7 +259,7 @@ function SideBar(props) {
                         fill="white"
                         stroke="lightgrey"
                         strokeWidth={boxStrokeWidth}
-                        shadowColor="black"
+                        shadowColor="white"
                         shadowOpacity={0.5}
                         shadowBlur={0}
                         shadowOffset={{ x: 10, y: 10 }}
