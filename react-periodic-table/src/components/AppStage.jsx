@@ -17,11 +17,11 @@ function AppStage() {
                     activeFamily={activeFamily}
                 />
                 <LabelsLayer />
-                <SideBar activeElement={activeElement} />
                 <LegendBar
                     activeFamily={activeFamily}
                     setActiveFamily={setActiveFamily}
                 />
+                <SideBar activeElement={activeElement} />
             </Stage>
         </>
     );

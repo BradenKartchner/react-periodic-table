@@ -16,9 +16,9 @@ function SideBarInfo(props) {
         props.setHighlightStrokeColor("rgb(88, 143, 253)");
     };
 
-    /*
-     * TODO: add <iframe> element containing wikipedia page for each element as a click popup
-     */
+    const handleLinkClick = (eve) => {
+        props.setWikiActive((currValue) => !currValue);
+    };
 
     return (
         <>
@@ -60,6 +60,7 @@ function SideBarInfo(props) {
                 }
                 padding={10}
                 onMouseOver={handleMouseOver}
+                onClick={props.leftText == "More info" ? handleLinkClick : ""}
                 x={props.x}
                 y={props.y}
             />
