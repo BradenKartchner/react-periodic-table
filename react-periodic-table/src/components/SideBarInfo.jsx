@@ -16,6 +16,10 @@ function SideBarInfo(props) {
         props.setHighlightStrokeColor("rgb(88, 143, 253)");
     };
 
+    /*
+     * TODO: add <iframe> element containing wikipedia page for each element as a click popup
+     */
+
     return (
         <>
             <Rect

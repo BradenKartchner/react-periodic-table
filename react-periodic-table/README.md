@@ -6,11 +6,14 @@ Most responsive layout systems (flexbox, Bootstrap, etc.) use a maximum of 12 co
 
 I am going to experiment with using React Konva, an independent framework where React Components can be rendered to the screen with more flexibility than Bootstrap.
 
-Design:
+Additional features to add:
 
--   Header
--   Body component containing a Konva "Stage"
--   Footer
+-   Pull up Wiki article in <iframe> element when clicking on "More info" in side bar
+-   options for degrees C and K in side bar info
+
+Formatting to fix:
+
+-   Force background color to be the same for dark and light mode
 
 # React + Vite
 
