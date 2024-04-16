@@ -4,8 +4,18 @@ import allElements from "../ElementData";
 import colorScheme from "../EleColorScheme";
 
 function ElementLayer(props) {
-    let width = window.innerWidth;
-    let height = window.innerHeight;
+    let width;
+    let height;
+    if (window.innerWidth < 1400 || window.innerWidth > 1600) {
+        width = 1422;
+    } else {
+        width = window.innerWidth;
+    }
+    if (window.innerHeight < 700 || window.innerWidth > 800) {
+        height = 710;
+    } else {
+        height = window.innerHeight;
+    }
 
     // TODO: make boxes vary in size based on screen resolution, but not resize to be smaller
     // than a certain amount

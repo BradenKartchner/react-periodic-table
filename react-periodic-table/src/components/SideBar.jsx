@@ -8,8 +8,18 @@ import SideBarInfo from "./SideBarInfo";
 import { Html } from "react-konva-utils";
 
 function SideBar(props) {
-    let width = window.innerWidth;
-    let height = window.innerHeight;
+    let width;
+    let height;
+    if (window.innerWidth < 1400 || window.innerWidth > 1600) {
+        width = 1422;
+    } else {
+        width = window.innerWidth;
+    }
+    if (window.innerHeight < 700 || window.innerWidth > 800) {
+        height = 710;
+    } else {
+        height = window.innerHeight;
+    }
 
     // vars for side bar layout
     let xMultiplier = width / 25;

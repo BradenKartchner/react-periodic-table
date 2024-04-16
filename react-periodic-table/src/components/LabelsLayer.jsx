@@ -5,8 +5,18 @@
 import { Layer, Group, Rect, Text } from "react-konva";
 
 function LabelsLayer() {
-    let width = window.innerWidth;
-    let height = window.innerHeight;
+    let width;
+    let height;
+    if (window.innerWidth < 1400 || window.innerWidth > 1600) {
+        width = 1422;
+    } else {
+        width = window.innerWidth;
+    }
+    if (window.innerHeight < 700 || window.innerWidth > 800) {
+        height = 710;
+    } else {
+        height = window.innerHeight;
+    }
 
     let xMultiplier = width / 25;
     let yMultiplier = height / 12;
