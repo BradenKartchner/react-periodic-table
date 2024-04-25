@@ -10,8 +10,19 @@ Dependencies to install:
 react-konva
 react-konva-utils
 
+Suggestions from peers to improve the app:
+
+-   glow hover effect on mouseover even when already clicked on an element (transparent ghost effect on mouseover, solid effect on the currently selected element)
+-   new element chosen highlights onMouseDown, not onClick (so it highlights without releasing the mouse button)
+-   style the wikipedia info so it matches the element of the table (a little vague, maybe ask follow-up questions)
+-   make transitions smoother when moving from one family to another to reduce flashing
+-   make the colors more distinct from each other (especially Noble gases)
+-   make it more clear where to click to pull up the wiki information (click here ->)
+
 Additional features to add:
 
+-   footer bar with copyright, my name and email
+-   header bar with title?
 -   options for degrees C and K in side bar info
 -   make click on already clicked element change focus back to transitory
 
